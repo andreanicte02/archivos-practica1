@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Crear.h</itemPath>
+      <itemPath>analizador.h</itemPath>
+      <itemPath>bloques.h</itemPath>
+      <itemPath>maestro.h</itemPath>
+      <itemPath>master.h</itemPath>
+      <itemPath>mbr.h</itemPath>
+      <itemPath>raid.h</itemPath>
+      <itemPath>reportes.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Crear.c</itemPath>
+      <itemPath>analizador.c</itemPath>
+      <itemPath>maestro.c</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>raid.c</itemPath>
+      <itemPath>reportes.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="Crear.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Crear.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="analizador.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="analizador.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="bloques.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="maestro.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="maestro.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="master.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mbr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raid.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="raid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="reportes.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="reportes.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Crear.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Crear.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="analizador.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="analizador.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="bloques.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="maestro.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="maestro.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="master.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mbr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="raid.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="raid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="reportes.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="reportes.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

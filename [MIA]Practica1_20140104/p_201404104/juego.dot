@@ -1,0 +1,11 @@
+digraph juego { 
+node [shape=plaintext]
+a [label=<<TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0">
+<TR>
+<TD ROWSPAN="15"> mbr: disco2 </TD>
+<TD ROWSPAN="2"> Primaria: part1 </TD>
+<TD ROWSPAN="2"> Primaria: part2 </TD>
+<TD ROWSPAN="2"> Vacio: 4189624 </TD>
+</TR> 
+</TABLE>>];
+}

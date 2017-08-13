@@ -1,0 +1,26 @@
+partition enmedio(partition p, int tamano, long int inicio, char*nombre, char*tipo, int numero) {
+    p.bloques = 0;
+    p.bloques_libres = 0;
+    p.estado = 1;
+    p.inicio = inicio;
+    if (strcasecmp(tipo, "e") == 0) {
+        for (int i = 0; i < 12; i++) {
+            temporal.p.logicas[i].bloques_libres = 0;
+            p.logicas[i].bloques = 0;
+            p.logicas[i].estado = 0;
+            p.logicas[i].inicio = 0;
+            p.logicas[i].tamano = 0;
+            strcpy(p.logicas[i].nombre, "vacia");
+
+        }
+
+    }
+    p.no_partition = numero;
+    strcpy(p.nombre, nombre);
+    p.tamano = tamano;
+    strcpy(p.tipo, tipo);
+
+
+
+    return p;
+}
